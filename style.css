@@ -1,0 +1,47 @@
+table,
+td,
+th {
+    border: 1px solid black;
+}
+
+.header-label-center {
+    text-align: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-cell {
+    border: 1px solid black;
+    margin: 8px 8px 8px 8px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+}
+
+.post-cell-label {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-align: center;
+    
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 8px 8px 8px;
+
+    border-radius: 5px;
+    border-style: none;
+
+    background-color: coral;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
